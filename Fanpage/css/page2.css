@@ -1,0 +1,34 @@
+/* CSS Style Page 2 */
+
+html{
+	background: url(../images/city.gif); 
+	padding:0px;
+}
+
+#india{
+	position:relative;
+	top:30px;
+	left:30px;
+}
+
+#clearsunset{
+	position:relative;
+	top:30px;
+	left:30px;
+}
+
+#miamisunset{
+	position:relative;
+	top:30px;
+	left:30px;
+}
+
+#contentContainer{
+	width:800px;
+	position:relative;
+	height:100vh;
+	margin-left:auto;
+	margin-right:auto;
+	background-color: gray;
+	padding: 20px;
+}

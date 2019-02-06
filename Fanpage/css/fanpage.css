@@ -1,0 +1,100 @@
+html{
+	background: url(../images/sunset.gif); /*no-repeat center center fixed;*/
+	/*background-size: cover;*/
+padding:0px;
+}
+
+@font-face{
+	font-family:Retro;
+	src:url(fonts/ka1.ttf) format('truetype');
+}
+
+@font-face{
+	font-family:;
+	src:url() format('truetype');
+}
+
+body {
+	padding:0px;
+	margin:0px;
+
+
+}
+
+h1{
+	font-family:Retro;
+	text-align:center;
+}
+
+a{
+	color:red;
+	text-decoration: none;
+}
+a: visited{
+	color: pink;
+}
+a:hover{
+	color: purple;
+}
+
+/*#mainContainer{
+	width:100%;
+	height:auto;
+	background-color: pink;
+	position:relative;
+}
+
+#contentContainer{
+	position:relative;
+	width:600px;
+	height:auto;
+	margin-right: auto;
+	margin-left: auto;
+}*/
+
+#miami{
+	position:relative;
+	top:30px;
+	left:30px;
+}
+
+#hawaii{
+	position:relative;
+	top:30px;
+	left:30px;
+}
+
+#mainContainer{
+	width:calc(100%);
+	height:auto;
+	position:relative;
+	background-color:pink;
+}
+
+#contentContainer{
+	width:800px;
+	position:relative;
+	height:100vh;
+	margin-left:auto;
+	margin-right:auto;
+	background-color: orange;
+	padding: 20px;
+}
+
+.relativePos{
+	width:50px;
+	height:50px;
+	background-color: orange ;
+	z-index:1;
+}
+
+.absolutePos{
+	position:absolute;
+	width:100px;
+	height:100px;
+	/*top:100px;*/
+	left:0px;
+background-color: blue;
+}
+
+
